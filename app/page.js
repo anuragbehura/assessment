@@ -1,6 +1,7 @@
 import React from 'react';
 import { Bell, ChevronDown, Search, User } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const ProductPage = () => {
   return (
@@ -20,11 +21,11 @@ const ProductPage = () => {
             </div>
           </div>
           <nav className="hidden md:flex space-x-4">
-            <a href="#" className="text-gray-600 hover:text-gray-900">Launches</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900">Products</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900">News</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900">Community</a>
-            <a href="#" className="text-gray-600 hover:text-gray-900">Advertise</a>
+            <Link href="#" className="text-gray-600 hover:text-gray-900">Launches</Link>
+            <Link href="#" className="text-gray-600 hover:text-gray-900">Products</Link>
+            <Link href="#" className="text-gray-600 hover:text-gray-900">News</Link>
+            <Link href="#" className="text-gray-600 hover:text-gray-900">Community</Link>
+            <Link href="#" className="text-gray-600 hover:text-gray-900">Advertise</Link>
           </nav>
           <div className="flex items-center space-x-4">
             <button className="bg-orange-50 text-orange-500 px-4 py-2 rounded-md">Submit</button>
