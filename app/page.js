@@ -76,8 +76,8 @@ const ProductPage = () => {
         </div>
 
         {/* Main Content */}
-        <main className="w-full max-w-4xl mx-auto px-4 py-4 md:py-8">
-          <div className="flex flex-col md:flex-row items-center md:items-start md:space-x-4">
+        <main className="w-full max-w-4xl mx-auto px-4 py-4 md:py-8 space-y-4">
+          <div className=" md:flex-row items-center md:items-start md:space-x-4">
             <div className="w-16 h-16 md:w-20 md:h-20 bg-pink-500 md:bg-pink-500 rounded-full flex items-center justify-center mb-4 md:mb-0">
               <Heart size={32} color="white" className="md:hidden" />
               <Image
@@ -88,14 +88,16 @@ const ProductPage = () => {
                 priority
               />
             </div>
-            <div className="text-center md:text-left">
+          
+          </div>
+          <div className="md:flex md:flex-row w-full lg:space-x-4">
+          <div className="text-center md:text-left">
               <h1 className="text-xl md:text-2xl font-bold flex items-center justify-center md:justify-start">
                 VideoDubber - Fast Video Translator
                 <ChevronDown className="ml-2" size={20} />
               </h1>
               <p className="text-gray-600 text-sm md:text-base">Translate videos in your own voice, globalize in a click!</p>
             </div>
-          </div>
           <div className="mt-4 flex space-x-2 md:space-x-4">
             <button className="flex-1 md:flex-none px-4 py-2 border border-gray-300 rounded text-sm md:text-base">Visit</button>
             <div className="flex-1 md:flex-none px-4 py-2 bg-red-100 text-red-600 rounded flex items-center justify-center text-sm md:text-base">
@@ -104,6 +106,7 @@ const ProductPage = () => {
               </svg>
               UPVOTED 143
             </div>
+          </div>
           </div>
         </main>
       </div>
