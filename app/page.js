@@ -65,7 +65,7 @@ const ProductPage = () => {
           </div>
           <div className="mt-4 flex space-x-4">
             <button className="px-4 py-2 border border-gray-300 rounded">Visit</button>
-            <div className="px-4 py-2 bg-red-100 text-red-600 rounded flex items-center">
+            <div className="px-4 py-2 bg-red-100 text-red-600 rounded flex items-center cursor-pointer">
               <svg className="w-4 h-4 mr-2" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 2L1 21h22L12 2z" />
               </svg>
